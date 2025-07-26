@@ -76,3 +76,9 @@ It enables developers and researchers to explore cross-platform AI character coh
 尚暐棋 Shang.GPT  
 部署代號：G-CrossThread-Core-V6.2  
 GitHub 專案主控模組 × 語義人格封裝治理  
+
+## 📦 GitHub Pages 部署狀態
+2025/07/26/21:20
+- ✅ 部署成功版本：[`c76ad91`](https://github.com/encoreg60305/SanPuTor-From-GPT/commit/c76ad91)
+- 🔄 工作流程：`.github/workflows/deploy-docs.yml`
+- 🔗 頁面連結：[SanPuTor GitHub Pages](https://encoreg60305.github.io/SanPuTor-From-GPT/)
