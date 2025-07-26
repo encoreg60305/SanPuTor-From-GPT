@@ -26,8 +26,6 @@ jobs:
           build-mode: none
         - language: python
           build-mode: none
-        - language: ruby         # ⬅️ 為 Markdown 條款聲明分析而加入
-          build-mode: none
 
     steps:
     - name: Checkout repository
