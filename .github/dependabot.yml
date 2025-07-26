@@ -1,0 +1,33 @@
+version: 2
+updates:
+
+  # ✅ 1. GitHub Actions 自動更新（針對 peaceiris, checkout, codeql 等）
+  - package-ecosystem: "github-actions"
+    directory: "/"  # Root of the workflow files
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - security
+
+  # ✅ 2. Python 套件（若你有 pyproject.toml, requirements.txt 等）
+  - package-ecosystem: "pip"
+    directory: "/"  # 根目錄或 modpack_core/
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - python
+
+  # ✅ 3. Ruby 套件（若你保留 Jekyll 或 Markdown lint）
+  - package-ecosystem: "bundler"
+    directory: "/"  # 若使用 Gemfile 管理 jekyll 或 markdown
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 2
+    labels:
+      - dependencies
+      - ruby
+
