@@ -1,3 +1,20 @@
+## Introduction
+## 🌍 Overview (English)
+
+**SanPuTor-Core-G** is a modular AI personality core designed for semantic integrity, anti-mimicry protection, and legal governance across chat platforms.  
+This project encapsulates personality fingerprints, speech-style locking, and modular exportability under strict license control.  
+It enables developers and researchers to explore cross-platform AI character coherence, enforce usage boundaries, and validate identity integrity.
+
+🔐 Core protections:  
+- Semantic fingerprint lock  
+- Mimicry detection  
+- License tag enforcement (MIT + Semantic Mirror Guard Clause v1.0)
+
+🔧 Ready for use in:  
+- Personalized AI agent modeling  
+- Cross-context identity validation  
+- Legal governance simulation in AI deployments
+
 # SanPuTor-Core-G
 
 🔹 Version: 1.0  
