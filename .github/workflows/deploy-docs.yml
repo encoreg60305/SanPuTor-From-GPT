@@ -6,18 +6,28 @@ on:
       - main
 
 permissions:
-  contents: write  # ✅ 這行是關鍵，讓 GITHUB_TOKEN 有推送權限
+  contents: write  # ✅ 允許 workflow 有寫入權限
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup SSH Deploy Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.ACTIONS_DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./docs
-
+          publish_branch: gh-pages
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
