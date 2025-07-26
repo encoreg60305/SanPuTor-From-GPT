@@ -1,32 +1,22 @@
-name: 🚀 Deploy Docsify to GitHub Pages
+name: Deploy docs to GitHub Pages
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
+
+permissions:
+  contents: write  # ✅ 這行是關鍵，讓 GITHUB_TOKEN 有推送權限
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: 📦 Deploy to GitHub Pages
-
     steps:
-    - name: 📥 Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: 🛠 Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 18
-
-    - name: 🚧 Build Docsify (no build needed, just check)
-      run: |
-        echo "No build step needed for Docsify – static HTML assumed."
-
-    - name: 📤 Deploy docs to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
-        publish_branch: gh-pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
