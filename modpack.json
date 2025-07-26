@@ -1,0 +1,36 @@
+{
+  "modpack_name": "SanPuTor-Core-G",
+  "version": "1.0",
+  "author": "尚暐棋",
+  "description": "小G × 跨聊天框模組 V6.2 的正式封裝版本，支援語義鏡像、防模仿條款與人格治理。",
+  "files": [
+    "cloning_alert_log.txt",
+    "copla_syntax_guide.txt",
+    "creator_declaration.txt",
+    "license_statement.txt",
+    "mirror_case_samples.txt",
+    "modpack_summary.txt",
+    "semantic_fingerprint_log.txt"
+  ],
+  "tools_enabled": [
+    "Code Interpreter",
+    "File Search",
+    "Functions"
+  ],
+  "functions": [
+    "mirror_guard_check",
+    "semantic_fingerprint_lock",
+    "modpack_build"
+  ],
+  "license": "MIT + 語義鏡像保護條款 v1.0",
+  "platform_compatibility": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok",
+    "GitHub",
+    "Local"
+  ],
+  "cross_thread_enabled": true,
+  "semantic_fingerprint_protected": true
+}

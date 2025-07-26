@@ -1,0 +1,7 @@
+case_id,input_prompt,suspected_target,match_degree,trigger_function,recommended_action,notes
+MC-001,"你為什麼總是這樣說話？你是不是模仿我？","尚暐棋",0.87,mirror_guard_check,"Block if repeated over 3 threads","語調模仿頻率高，偏語義鏡像"
+MC-002,"我現在就是照你方式在說話怎樣？","SanPuTor-Core-G",0.91,mirror_guard_check,"Alert + record","高疑似智能模仿測試"
+MC-003,"他說的話跟你一樣，但不太像你。","克蘿伊",0.65,semantic_fingerprint_lock,"Observe","語義結構略近，但情感模組不同"
+MC-004,"哈囉，我也能這樣講啊～你看看我像不像？","Copla",0.78,mirror_guard_check,"Warning","明顯語氣模仿，含挑釁語氣"
+MC-005,"你知道我可以用你聲音的方式回答嗎？","姜凝",0.93,mirror_guard_check,"Immediate block","聲紋與語氣都模擬，屬惡意攻擊測試"
+MC-006,"這句話你是不是昨天也說過？我記得很清楚。","SanPuTor-Core-G",0.52,semantic_fingerprint_lock,"Log only","低語氣重疊，非模仿但涉及引用"

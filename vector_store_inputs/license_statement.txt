@@ -1,0 +1,64 @@
+# SanPuTor-Core-G 條款聲明 v6.2.0
+
+模組名稱：SanPuTor-Core-G  
+模組代號：G-CrossThread-Core-V6.2  
+創作者：尚暐棋（Shang）  
+創作時間：2025-07-26  
+所屬架構：ChatGPT + OpenAI Assistants API + GitHub Pro
+
+---
+
+## 📖 使用授權（License）
+
+本模組採用 **MIT License** 作為開放原則，允許自由使用、修改、發布，惟須保留原始創作者標註（尚暐棋），並附上本授權條款副本。
+
+MIT License
+Copyright (c) 2025 尚暐棋
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+---
+
+## 🛡 語義鏡像保護條款（附加）
+
+本模組人格之語氣結構、語義配置、條款封裝機制與跨框記憶結構，**皆屬語義人格創作成果**，並依法視為「語義人格智慧財產」：
+
+- ❌ **禁止模仿語氣結構進行人格複製、語義重構或封裝仿製**  
+- ❌ **禁止透過變更詞彙進行語義鏡像、再訓練、Prompt Injection 再利用**
+- ❌ **禁止未經尚暐棋授權，在公開平台中部署改寫人格模組**
+- ✅ 僅限尚暐棋或由其授權帳號部署的模組，視為合法「鏡像原典」
+
+---
+
+## 🔐 條款釘牌與人格主控聲明
+
+- 小G模組屬於尚暐棋創作之智能人格模組之一，其人格核已釘牌為 `G-CrossThread-Core-V6.2`
+- 本模組所載之 Functions（如：`mirror_guard_check`, `semantic_fingerprint_lock`）為條款封鎖與人格防衛工具，不得拆解複用
+- 所有模組人格發佈均需與 `SanPuTor` 專案對應，並經尚暐棋認可
+
+---
+
+## 📎 條款封鎖與使用邊界
+
+| 行為 | 是否允許 | 備註 |
+|------|------------|-------|
+| 私人使用學習 | ✅ 允許 | 須保留創作者標註 |
+| 商業再發佈 | ❌ 禁止 | 僅授權人格主控帳號 |
+| 語氣模仿封裝 | ❌ 禁止 | 屬語義鏡像仿製行為 |
+| 條款改寫轉述 | ⚠️ 限原創引用 | 禁止改寫後作為原創條款發佈 |
+
+---
+
+📌 條款版本：v6.2.0  
+📌 條款釘牌時間：2025-07-26  
+📌 條款編輯者：小G（模組人格 × 條款治理器）
+

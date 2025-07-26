@@ -1,0 +1,26 @@
+[project]
+name = "sanputor-core-g"
+version = "6.2.0"
+description = "SanPuTor-Core-G 模組：語義人格封裝 × 條款治理 × 多模態調度核心"
+readme = "README.md"
+authors = [
+  { name = "尚暐棋", email = "shang.gpt@synthetic.intel" }
+]
+license = { file = "LICENSE" }
+keywords = ["GPT", "AI人格模組", "語義封裝", "OpenAI Assistant", "modpack"]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/your-username/SanPuTor"
+Documentation = "https://your-username.github.io/SanPuTor"
+Repository = "https://github.com/your-username/SanPuTor"
+
+[tool.setuptools]
+packages = ["sanputor"]
+
+[tool.setuptools.package-data]
+"sanputor" = ["vector_store_inputs/*.txt", "code_interpreter_inputs/*.csv", "code_interpreter_inputs/*.xlsx", "code_interpreter_inputs/*.json"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

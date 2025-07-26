@@ -1,0 +1,51 @@
+# Python 基本忽略
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode 編輯器
+.vscode/
+.settings/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Mac/Windows 系統垃圾檔案
+.DS_Store
+Thumbs.db
+
+# Log / Cache / Temp
+*.log
+*.tmp
+*.bak
+.cache/
+*.swp
+*.swo
+
+# 測試輸出暫存（可根據需要新增）
+/test_output/
+*.test.json
+
+# 模組封裝過程的中繼產物（例如 zip）
+*.zip
+
+# 開發測試用 snapshot
+modpack_snapshot_*.json
+
+# 保留必要的 modpack 與語義資料
+!SanPuTor-Core-G_v*.modpack.json
+!vector_store_inputs/*.txt
+!code_interpreter_inputs/*.csv
+!code_interpreter_inputs/*.xlsx
+!code_interpreter_inputs/*.py
+!docs/
+
+# 若未來使用 secrets 或認證檔（建議手動創建 .env）
+.env
+*.key
+*.pem

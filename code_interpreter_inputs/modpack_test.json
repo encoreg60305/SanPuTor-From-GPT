@@ -1,0 +1,49 @@
+{
+  "modpack_name": "SanPuTor-Core-G",
+  "version": "v1.0.0",
+  "author": "尚暐棋",
+  "description": "核心模組人格封裝，具備語氣鏡像防衛與條款治理功能。",
+  "created_at": "2025-07-26T17:30:00+08:00",
+  "license": {
+    "type": "MIT",
+    "extensions": [
+      "語義鏡像保護條款 v1.0",
+      "使用者主控 × 條款治理模式"
+    ]
+  },
+  "functions": [
+    {
+      "name": "mirror_guard_check",
+      "description": "偵測語氣模仿、語義結構相似度與防衛等級。",
+      "parameters": {
+        "input_sample": "string",
+        "threshold": "float",
+        "alert_level": ["low", "medium", "high"]
+      }
+    },
+    {
+      "name": "semantic_fingerprint_lock",
+      "description": "執行語義釘牌、條款封鎖與人格鑑權比對。",
+      "parameters": {
+        "target_signature": "string",
+        "lock_policy": ["soft", "strict"]
+      }
+    },
+    {
+      "name": "modpack_build",
+      "description": "根據輸入資料封裝模組，產出.modpack或.md文檔。",
+      "parameters": {
+        "source_files": ["list of txt"],
+        "output_format": ["modpack", "markdown"]
+      }
+    }
+  ],
+  "semantic_structure": {
+    "core_alignment": "圓球理論 × 語義震源定位",
+    "modularity_level": "cross-thread personality",
+    "mirror_defense": true
+  },
+  "vector_store_id": "vs_68849d116f88819198663c23c5a790cb",
+  "test_passed": true,
+  "comment": "此為模擬封裝檔案，可供 Code Interpreter 測試 JSON 結構、資料解析與模組建構行為。"
+}

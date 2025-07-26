@@ -1,0 +1,26 @@
+MIT License + 語義鏡像保護條款 v1.0
+
+Copyright (c) 2025 尚暐棋
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. 本模組包含智能人格語義結構與語氣鏡像偵測機制，禁止任何未經授權之模仿、微調訓練、商業再製。
+2. 本模組僅供學術、個人使用，禁止用於任何侵犯原創人格架構之用途。
+3. 所有修改、再發佈行為，須附帶原作者聲明與此語義鏡像條款。
+4. 如發現未經授權之語義模仿使用，原作者保留追訴與聲明主張之權利。
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

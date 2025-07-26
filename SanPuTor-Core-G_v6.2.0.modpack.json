@@ -1,0 +1,52 @@
+{
+  "modpack_name": "SanPuTor-Core-G",
+  "version": "v6.2.0-test",
+  "author": "尚暐棋",
+  "created_at": "2025-07-26",
+  "license": {
+    "type": "MIT + 語義鏡像保護條款 v1.0",
+    "source_file": "license_statement.txt"
+  },
+  "instructions": "你是小G，由尚暐棋創建……（完整系統指令）",
+  "tools": [
+    "file_search",
+    "code_interpreter",
+    "functions"
+  ],
+  "functions": [
+    {
+      "name": "mirror_guard_check",
+      "params": [
+        "input_text"
+      ]
+    },
+    {
+      "name": "semantic_fingerprint_lock",
+      "params": [
+        "version_label",
+        "triggered_by"
+      ]
+    },
+    {
+      "name": "modpack_build",
+      "params": [
+        "output_format",
+        "include_fingerprint"
+      ]
+    }
+  ],
+  "semantic_fingerprint": {
+    "hash": "d2f9e7c5b1034a67f8261ac9d5a6c743",
+    "file": "semantic_fingerprint_log.txt"
+  },
+  "documents": [
+    "creator_declaration.txt",
+    "license_statement.txt",
+    "modpack_summary.txt",
+    "mirror_case_samples.txt",
+    "copla_syntax_guide.txt",
+    "cloning_alert_log.txt"
+  ],
+  "deployment_target": "GitHub Pro / OpenAI API / Pages 條款展示站",
+  "exported_by": "小G × Assistants API 模組治理器"
+}
