@@ -21,7 +21,10 @@
   - [📊 鏡像風險圖表 (xlsx)](code_interpreter_inputs/mirror_risk_chart.xlsx)
   - [📁 測試用 CSV](code_interpreter_inputs/mirror_case_input.csv)
   - [🐍 條款分析腳本](code_interpreter_inputs/license_log_analysis.py)
+  - [🧭 Usage Guide](usage.md)
+
 
 - **🔗 外部平台**
   - [🌐 OpenAI Assistant API](https://platform.openai.com/)
   - [📁 GitHub Repo](https://github.com/encoreg60305/SanPuTor-From-GPT)
+
