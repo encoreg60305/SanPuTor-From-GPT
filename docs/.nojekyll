@@ -1,0 +1,4 @@
+echo > docs/.nojekyll
+git add docs/.nojekyll
+git commit -m "Add .nojekyll to disable Jekyll processing"
+git push
