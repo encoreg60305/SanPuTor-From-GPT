@@ -27,4 +27,8 @@
 - **🔗 外部平台**
   - [🌐 OpenAI Assistant API](https://platform.openai.com/)
   - [📁 GitHub Repo](https://github.com/encoreg60305/SanPuTor-From-GPT)
+  - 
+  **📘 條款治理**
+  - [鏡像保護原則](mirror_guard_policy.md)
+
 
