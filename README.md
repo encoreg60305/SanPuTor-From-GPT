@@ -1,4 +1,6 @@
 ## Introduction
+![Deploy Docs](https://github.com/encoreg60305/SanPuTor-From-GPT/actions/workflows/deploy-docs.yml/badge.svg)
+
 ## 🌍 Overview (English)
 
 **SanPuTor-Core-G** is a modular AI personality core designed for semantic integrity, anti-mimicry protection, and legal governance across chat platforms.  
